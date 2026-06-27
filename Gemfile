@@ -10,7 +10,7 @@ gem "puma", ">= 5.0"
 # gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
 gem 'rspec-rails'
-gem "sidekiq", "~> 6.5.12"
+gem "sidekiq", "~> 8.1.6"
 gem 'redis'
 gem 'httparty'
 gem 'factory_bot_rails'
