@@ -1,0 +1,17 @@
+fetch_bitcoin:
+
+  cron: "* * * * *"
+
+  class: "FetchCryptoPriceJob"
+
+  args:
+    - bitcoin
+
+fetch_ethereum:
+
+  cron: "* * * * *"
+
+  class: "FetchCryptoPriceJob"
+
+  args:
+    - ethereum
